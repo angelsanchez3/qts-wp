@@ -7,17 +7,7 @@
 
     <title>QTS Quality, Trading & Services</title>
 
-
-    <!-- <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Hind%3A300%2Cregular%2C500%2C600%2C700&#038;subset=latin%2Clatin-ext%2Cdevanagari&#038;ver=4.9.7' type='text/css' media='all'>
-
-    <link rel='stylesheet' href='plugins/revslider/public/assets/css/settings.css' type='text/css' media='all'>
-    <link rel='stylesheet' href='css/style-core.css' type='text/css' media='all'>
-    <link rel='stylesheet' href='css/rftr-style-custom.css' type='text/css' media='all'>
-    <link rel='stylesheet' href='plugins/goodlayers-core/plugins/combine/style.css' type='text/css' media='all'>
-    <link rel='stylesheet' href='plugins/goodlayers-core/include/css/page-builder.css' type='text/css' media='all'>
-
-
-    <link rel='stylesheet' href='css/custom.css' type='text/css' media='all'> -->
+    <?php wp_head(); ?>
 
 </head>
 
@@ -27,7 +17,7 @@
             <div class="realfactory-mobile-header-container realfactory-container">
                 <div class="realfactory-logo  realfactory-item-pdlr">
                     <div class="realfactory-logo-inner">
-                        <a href="index.html"><img src="images/qts-110x52.png" alt="QTS Logo"></a>
+                        <a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/images/qts-110x52.png" alt="QTS Logo"></a>
                     </div>
                 </div>
                 <div class="realfactory-mobile-menu-right">
@@ -79,7 +69,7 @@
                 <div class="realfactory-top-bar-container clearfix realfactory-container ">
                     <div class="realfactory-top-bar-left realfactory-item-pdlr c-header-logo-wrapper">
                         <div class="realfactory-top-bar-right-social c-header-logo">
-                            <a href="index.html"><img src="images/qts-110x52.png" alt="QTS Logo"></a>
+                            <a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/images/qts-110x52.png" alt="QTS Logo"></a>
                         </div>
                     </div>
                     <div class="realfactory-top-bar-right realfactory-item-pdlr c-header-social-wrapper">
