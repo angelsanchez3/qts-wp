@@ -1,0 +1,66 @@
+/* index */
+.realfactory-top-bar-right-social.c-header-logo,
+.realfactory-top-bar-right-social.c-header-logo a {
+    margin-left: 0;
+}
+
+.realfactory-item-pdlr.c-header-logo-wrapper {
+    padding-left: 0;
+}
+
+.c-header-social-wrapper,
+.gdlr-core-dropdown-tab .gdlr-core-dropdown-tab-content-wrap {
+    padding-top: 8px;
+}
+
+.realfactory-footer-wrapper {
+    padding: 50px 0;
+}
+
+.gdlr-core-item-pdb {
+    padding-bottom: 0;
+}
+
+.gdlr-core-dropdown-tab .gdlr-core-dropdown-tab-head-wrap {
+    z-index: 10;
+    margin-right: 0;
+}
+
+.realfactory-item-pdlr {
+    padding-right: 0;
+}
+
+/* services */
+.c-service-page {
+    width: 100%;
+}
+
+/*  informaçoes */
+.c-gallery-wrapper:first-child {
+    padding-top: 0;
+}
+
+/* footer */
+/* .c-footer-logo {
+    text-align: center;
+} */
+
+.c-footer-logo img {
+    width: 110px;
+}
+
+.c-footer-logo .realfactory-top-bar-right-social {
+    margin-left: 0px;
+}
+
+.c-footer-logo .realfactory-top-bar-right-social .facebook-footer {
+    margin-left: 0px;
+}
+
+.c-newsletter {
+    padding-top:10px;
+}
+
+.c-newsletter input {
+    width: 100%;
+}
