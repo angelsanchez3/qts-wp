@@ -27,8 +27,8 @@
                     <h3 class="realfactory-widget-title">A Empresa</h3>
                     <div class="menu-market-sectors-container">
                         <ul id="menu-market-sectors" class="menu">
-                            <li class="menu-item"><a href="about.html">Sobre Nós</a></li>
-                            <li class="menu-item"><a href="gallery.html">Informações</a></li>
+                            <li class="menu-item"><a href="<?php echo site_url('/about'); ?>">Sobre Nós</a></li>
+                            <li class="menu-item"><a href="<?php echo site_url('/information'); ?>">Informações</a></li>
                             <li class="menu-item"><a href="noticias.html">Notícias</a></li>
                             <li class="menu-item"><a href="contacts.html">Contactos</a></li>
                             <li class="menu-item"><a href="page.html">Política de Privacidade</a></li>

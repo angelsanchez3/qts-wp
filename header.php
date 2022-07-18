@@ -17,7 +17,7 @@
             <div class="realfactory-mobile-header-container realfactory-container">
                 <div class="realfactory-logo  realfactory-item-pdlr">
                     <div class="realfactory-logo-inner">
-                        <a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/images/qts-110x52.png" alt="QTS Logo"></a>
+                        <a href="<?php echo site_url(''); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/qts-110x52.png" alt="QTS Logo"></a>
                     </div>
                 </div>
                 <div class="realfactory-mobile-menu-right">
@@ -38,9 +38,9 @@
                     <div class="realfactory-mobile-menu"><a class="realfactory-mm-menu-button realfactory-mobile-menu-button realfactory-mobile-button-hamburger-with-border" href="#realfactory-mobile-menu"><i class="fa fa-bars"></i></a>
                         <div class="realfactory-mm-menu-wrap realfactory-navigation-font" id="realfactory-mobile-menu" data-slide="right">
                             <ul id="menu-main-navigation" class="m-menu">
-                                <li class="menu-item menu-item-has-children"><a href="index.html">Home</a>
+                                <li class="menu-item menu-item-has-children"><a href="<?php echo site_url(''); ?>">Home</a>
                                 </li>
-                                <li class="menu-item menu-item-has-children"><a href="about.html">Sobre Nós</a>
+                                <li class="menu-item menu-item-has-children"><a href="<?php echo site_url('/about'); ?>">Sobre Nós</a>
                                 </li>
                                 <li class="menu-item menu-item-has-children"><a href="#">Serviços</a>
                                     <ul class="sub-menu">
@@ -49,7 +49,7 @@
                                         <li class="menu-item"><a href="services.html">Serviço 3</a></li>
                                     </ul>
                                 </li>
-                                <li class="menu-item menu-item-has-children"><a href="gallery.html">Informações</a>
+                                <li class="menu-item menu-item-has-children"><a href="<?php echo site_url('/information'); ?>">Informações</a>
                                 </li>
                                 <li class="menu-item menu-item-has-children"><a href="noticias.html">Notícias</a>
                                 </li>
@@ -69,7 +69,7 @@
                 <div class="realfactory-top-bar-container clearfix realfactory-container ">
                     <div class="realfactory-top-bar-left realfactory-item-pdlr c-header-logo-wrapper">
                         <div class="realfactory-top-bar-right-social c-header-logo">
-                            <a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/images/qts-110x52.png" alt="QTS Logo"></a>
+                            <a href="<?php echo site_url(''); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/qts-110x52.png" alt="QTS Logo"></a>
                         </div>
                     </div>
                     <div class="realfactory-top-bar-right realfactory-item-pdlr c-header-social-wrapper">
@@ -108,10 +108,10 @@
                         <div class="realfactory-main-menu" id="realfactory-main-menu">
                             <ul id="menu-main-navigation-1" class="sf-menu">
                                 <li class="menu-item menu-item-home current-menu-item menu-item-has-children realfactory-normal-menu">
-                                    <a href="index.html" class="sf-with-ul-pre">Home</a>
+                                    <a href="<?php echo site_url(''); ?>" class="sf-with-ul-pre">Home</a>
                                 </li>
                                 <li class="menu-item menu-item-has-children realfactory-normal-menu">
-                                    <a href="about.html" class="sf-with-ul-pre">Sobre Nós</a>
+                                    <a href="<?php echo site_url('/about'); ?>" class="sf-with-ul-pre">Sobre Nós</a>
                                 </li>
                                 <li class="menu-item menu-item-has-children realfactory-normal-menu">
                                     <a href="#" class="sf-with-ul-pre">Serviços</a>
@@ -122,7 +122,7 @@
                                     </ul>
                                 </li>
                                 <li class="menu-item menu-item-has-children realfactory-mega-menu">
-                                    <a href="gallery.html" class="sf-with-ul-pre">Informações</a>
+                                    <a href="<?php echo site_url('/information'); ?>" class="sf-with-ul-pre">Informações</a>
                                 </li>
                                 <li class="menu-item menu-item-has-children realfactory-normal-menu">
                                     <a href="noticias.html" class="sf-with-ul-pre">Notícias</a>
