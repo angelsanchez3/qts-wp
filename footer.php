@@ -29,7 +29,7 @@
                         <ul id="menu-market-sectors" class="menu">
                             <li class="menu-item"><a href="<?php echo site_url('/about'); ?>">Sobre Nós</a></li>
                             <li class="menu-item"><a href="<?php echo site_url('/information'); ?>">Informações</a></li>
-                            <li class="menu-item"><a href="noticias.html">Notícias</a></li>
+                            <li class="menu-item"><a href="<?php echo site_url('/news'); ?>">Notícias</a></li>
                             <li class="menu-item"><a href="contacts.html">Contactos</a></li>
                             <li class="menu-item"><a href="page.html">Política de Privacidade</a></li>
                         </ul>
