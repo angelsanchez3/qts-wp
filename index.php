@@ -34,75 +34,41 @@
             </div>
             <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
                 <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
-                    <div class="gdlr-core-pbf-column gdlr-core-column-20 gdlr-core-column-first gdlr-core-hide-in-mobile">
-                        <div class="gdlr-core-pbf-column-content-margin gdlr-core-js " style="margin: -100px 0px 0px 0px;padding: 75px 0px 65px 0px;" data-sync-height="height-service-1">
-                            <div class="gdlr-core-pbf-background-wrap">
-                                <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" style="background-image: url(<?php echo get_template_directory_uri(); ?>/upload/service-1.jpg);background-size: cover;background-position: center;" data-parallax-speed="0"></div>
-                            </div>
-                            <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content">
-                                <div class="gdlr-core-pbf-element">
-                                    <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-center-align gdlr-core-title-item-caption-bottom gdlr-core-item-pdlr" style="padding-bottom: 0px;">
-                                        <div class="gdlr-core-title-item-title-wrap ">
-                                            <a href="services.html">
-                                                <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 23px;font-weight: 500;letter-spacing: 0px;text-transform: none;">
-                                                    Serviço 1 <span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
-                                                </h3>
-                                            </a>
+                    <?php
+                    $args = array(
+                        'post_type' => 'service',
+                        'orderby' => 'ID',
+                        'order'   => 'ASC',
+                    );
+                    $services = new WP_Query($args);
+
+                    while ($services->have_posts()) {
+                        $services->the_post();
+                    ?>
+                        <div class="gdlr-core-pbf-column gdlr-core-column-20 gdlr-core-hide-in-mobile">
+                            <div class="gdlr-core-pbf-column-content-margin gdlr-core-js " style="margin: -100px 0px 0px 0px;padding: 75px 0px 65px 0px;" data-sync-height="height-service-1">
+                                <div class="gdlr-core-pbf-background-wrap">
+                                    <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js c-service-image-overlay" style="background-image: url(<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>);background-size: cover;background-position: center;" data-parallax-speed="0"></div>
+                                </div>
+                                <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content">
+                                    <div class="gdlr-core-pbf-element">
+                                        <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-center-align gdlr-core-title-item-caption-bottom gdlr-core-item-pdlr" style="padding-bottom: 0px;">
+                                            <div class="gdlr-core-title-item-title-wrap ">
+                                                <a href="<?php the_permalink(); ?>">
+                                                    <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 23px;font-weight: 500;letter-spacing: 0px;text-transform: none;color: #99c329;">
+                                                        <?php the_title(); ?> <span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
+                                                    </h3>
+                                                </a>
+                                            </div>
+                                            <span class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption" style="font-size: 18px;font-weight: 300;font-style: normal;color: #ffffff;">
+                                                <?php the_excerpt(); ?>
+                                            </span>
                                         </div>
-                                        <span class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption" style="font-size: 18px;font-weight: 300;font-style: normal;color: #0a0a0a;">
-                                            Breve descrição
-                                        </span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="gdlr-core-pbf-column gdlr-core-column-20 gdlr-core-hide-in-mobile">
-                        <div class="gdlr-core-pbf-column-content-margin gdlr-core-js " style="margin: -100px 0px 0px 0px;padding: 75px 0px 65px 0px;" data-sync-height="height-service-1">
-                            <div class="gdlr-core-pbf-background-wrap">
-                                <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" style="background-image: url(<?php echo get_template_directory_uri(); ?>/upload/service-2.jpg);background-size: cover;background-position: center;" data-parallax-speed="0"></div>
-                            </div>
-                            <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content">
-                                <div class="gdlr-core-pbf-element">
-                                    <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-center-align gdlr-core-title-item-caption-bottom gdlr-core-item-pdlr" style="padding-bottom: 0px;">
-                                        <div class="gdlr-core-title-item-title-wrap ">
-                                            <a href="services.html">
-                                                <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 23px;font-weight: 300;letter-spacing: 0px;text-transform: none;color: #99c329;">
-                                                    Serviço 2<span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
-                                                </h3>
-                                            </a>
-                                        </div>
-                                        <span class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption" style="font-size: 18px;font-weight: 300;font-style: normal;color: #ffffff;">
-                                            Breve descrição
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gdlr-core-pbf-column gdlr-core-column-20 gdlr-core-hide-in-mobile">
-                        <div class="gdlr-core-pbf-column-content-margin gdlr-core-js " style="margin: -100px 0px 0px 0px;padding: 75px 0px 65px 0px;" data-sync-height="height-service-1">
-                            <div class="gdlr-core-pbf-background-wrap">
-                                <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" style="background-image: url(<?php echo get_template_directory_uri(); ?>/upload/service-3-1.jpg);background-size: cover;background-position: center;" data-parallax-speed="0"></div>
-                            </div>
-                            <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content">
-                                <div class="gdlr-core-pbf-element">
-                                    <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-center-align gdlr-core-title-item-caption-bottom gdlr-core-item-pdlr" style="padding-bottom: 0px;">
-                                        <div class="gdlr-core-title-item-title-wrap ">
-                                            <a href="services.html">
-                                                <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 23px;font-weight: 300;letter-spacing: 0px;text-transform: none;color: #99c329;">
-                                                    Serviço 3<span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
-                                                </h3>
-                                            </a>
-                                        </div>
-                                        <span class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption" style="font-size: 18px;font-weight: 300;font-style: normal;color: #ffffff;">
-                                            Breve descrição
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <?php } ?>
                     <div class="gdlr-core-pbf-column gdlr-core-column-30">
                         <div class="gdlr-core-pbf-column-content-margin gdlr-core-js " style="margin: 0px 0px 0px 10px;padding: 50px 0px 10px 0px;">
                             <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">

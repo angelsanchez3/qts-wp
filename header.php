@@ -44,9 +44,19 @@
                                 </li>
                                 <li class="menu-item menu-item-has-children"><a href="#">Serviços</a>
                                     <ul class="sub-menu">
-                                        <li class="menu-item"><a href="services.html">Serviço 1</a></li>
-                                        <li class="menu-item"><a href="services.html">Serviço 2</a></li>
-                                        <li class="menu-item"><a href="services.html">Serviço 3</a></li>
+                                        <?php
+                                        $args = array(
+                                            'post_type' => 'service',
+                                            'orderby' => 'ID',
+                                            'order'   => 'ASC',
+                                        );
+                                        $services = new WP_Query($args);
+
+                                        while ($services->have_posts()) {
+                                            $services->the_post();
+                                        ?>
+                                            <li class="menu-item"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+                                        <?php } ?>
                                     </ul>
                                 </li>
                                 <li class="menu-item menu-item-has-children"><a href="<?php echo site_url('/information'); ?>">Informações</a>
@@ -116,9 +126,19 @@
                                 <li class="menu-item menu-item-has-children realfactory-normal-menu">
                                     <a href="#" class="sf-with-ul-pre">Serviços</a>
                                     <ul class="sub-menu">
-                                        <li class="menu-item" data-size="60"><a href="services.html">Serviço 1</a></li>
-                                        <li class="menu-item" data-size="60"><a href="services.html">Serviço 2</a></li>
-                                        <li class="menu-item" data-size="60"><a href="services.html">Serviço 3</a></li>
+                                    <?php
+                                        $args = array(
+                                            'post_type' => 'service',
+                                            'orderby' => 'ID',
+                                            'order'   => 'ASC',
+                                        );
+                                        $services = new WP_Query($args);
+
+                                        while ($services->have_posts()) {
+                                            $services->the_post();
+                                        ?>
+                                            <li class="menu-item" data-size="60"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+                                        <?php } ?>
                                     </ul>
                                 </li>
                                 <li class="menu-item menu-item-has-children realfactory-mega-menu">

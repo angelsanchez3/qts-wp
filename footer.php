@@ -40,9 +40,19 @@
                 <div id="recent-posts-3" class="widget widget_recent_entries realfactory-widget">
                     <h3 class="realfactory-widget-title">Serviços</h3>
                     <ul>
-                        <li> <a href="services.html">Serviço 1</a></li>
-                        <li> <a href="services.html">Serviço 2</a></li>
-                        <li> <a href="services.html">Serviço 3</a></li>
+                        <?php
+                        $args = array(
+                            'post_type' => 'service',
+                            'orderby' => 'ID',
+                            'order'   => 'ASC',
+                        );
+                        $services = new WP_Query($args);
+
+                        while ($services->have_posts()) {
+                            $services->the_post();
+                        ?>
+                            <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+                        <?php } ?>
                     </ul>
                 </div>
             </div>
