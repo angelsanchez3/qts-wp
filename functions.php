@@ -52,7 +52,7 @@ function qts_custom_post_type()
     register_post_type(
         'service',
         array(
-            'rewrite' => array('slug' => 'services'),
+            'rewrite' => array('slug' => 'services', 'with_front' => false),
             'labels' => array(
                 'name' => 'Services',
                 'singular_name' => 'Service',
@@ -73,7 +73,7 @@ add_action('init', 'qts_custom_post_type');
 
 // remove image from the_content
 function strip_images($content) {
-    if (is_singular('service')) {
+    if (is_singular(array('service', 'post'))) {
         return preg_replace('/<img[^>]+./','',$content);
     }
 }
