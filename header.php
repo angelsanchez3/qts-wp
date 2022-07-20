@@ -86,12 +86,7 @@
                     </div>
                     <div class="realfactory-top-bar-right realfactory-item-pdlr">
                         <div class="gdlr-core-dropdown-tab gdlr-core-js clearfix">
-                            <div class="gdlr-core-dropdown-tab-title"><span class="gdlr-core-head">Português</span>
-                                <div class="gdlr-core-dropdown-tab-head-wrap">
-                                    <div class="gdlr-core-dropdown-tab-head gdlr-core-active" data-index="0">Português</div>
-                                    <div class="gdlr-core-dropdown-tab-head " data-index="1">English</div>
-                                </div>
-                            </div>
+                            <?php echo do_shortcode('[language-switcher]'); ?>
                         </div>
                     </div>
                     <div class="realfactory-top-bar-right realfactory-item-pdlr">

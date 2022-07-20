@@ -77,7 +77,7 @@ tpj(document).ready(function() {
             jsFileLocation: "//demo.goodlayers.com/realfactory/wp-content/plugins/revslider/public/assets/js/",
             sliderLayout: "auto",
             dottedOverlay: "none",
-            delay: 9000,
+            delay: 6000,
             navigation: {
                 keyboardNavigation: "off",
                 keyboard_direction: "horizontal",
@@ -141,3 +141,14 @@ tpj(document).ready(function() {
      htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
      document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
  } /*]]>*/
+
+
+ //Random Fix
+ window.onload = function(){
+    var modal = document.getElementById("myModal");
+    modal.style.display = "block";
+    setTimeout(
+        function() {
+            modal.style.display = "none";
+        }, 500);
+}
