@@ -63,7 +63,7 @@
                                 </li>
                                 <li class="menu-item menu-item-has-children"><a href="<?php echo site_url('/news'); ?>">Notícias</a>
                                 </li>
-                                <li class="menu-item menu-item-has-children"><a href="contacts.html">Contactos</a>
+                                <li class="menu-item menu-item-has-children"><a href="<?php echo site_url('/contact'); ?>">Contactos</a>
                                 </li>
                             </ul>
                         </div>
@@ -148,7 +148,7 @@
                                     <a href="<?php echo site_url('/news'); ?>" class="sf-with-ul-pre">Notícias</a>
                                 </li>
                                 <li class="menu-item menu-item-has-children realfactory-mega-menu">
-                                    <a href="contacts.html" class="sf-with-ul-pre">Contactos</a>
+                                    <a href="<?php echo site_url('/contact'); ?>" class="sf-with-ul-pre">Contactos</a>
                                 </li>
                             </ul>
                             <div class="realfactory-navigation-slide-bar" id="realfactory-navigation-slide-bar"></div>

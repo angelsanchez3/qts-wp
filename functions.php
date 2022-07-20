@@ -73,7 +73,7 @@ add_action('init', 'qts_custom_post_type');
 
 // remove image from the_content
 function strip_images($content) {
-    if (is_singular(array('service', 'post'))) {
+    if (is_singular(array('service', 'post', 'page'))) {
         return preg_replace('/<img[^>]+./','',$content);
     }
 }

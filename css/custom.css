@@ -101,3 +101,13 @@
 .c-newsletter input {
   width: 100%;
 }
+
+/* contact */
+.wpcf7-form-control-wrap input.c-contact-input {
+  border: none!important;
+}
+
+.quform-element .wpcf7-form-control-wrap input::placeholder,
+.quform-element .wpcf7-form-control-wrap textarea::placeholder {
+  color: #4e4e4e;
+}
