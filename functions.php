@@ -89,3 +89,12 @@ function console_log($output, $with_script_tags = true) {
     }
     echo $js_code;
 }
+
+// search filters
+function search_filter($query) {
+    if ($query->is_search()) {
+        $query->set('post_type', array('post'));
+    }
+}
+
+add_filter('pre_get_posts', 'search_filter');
