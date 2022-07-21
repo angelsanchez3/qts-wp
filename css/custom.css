@@ -35,10 +35,9 @@
   background-blend-mode: multiply;
 }
 
-
 .trp-language-switcher > div > a:hover {
   background: #212121;
-  color: #fff!important;
+  color: #fff !important;
 }
 
 .trp-language-switcher > div {
@@ -47,7 +46,7 @@
 }
 
 .trp-language-switcher-container a {
-  color: #99c329!important;
+  color: #99c329 !important;
   font-weight: 800;
   font-size: 13px;
 }
@@ -131,7 +130,7 @@
 
 /* contact */
 .wpcf7-form-control-wrap input.c-contact-input {
-  border: none!important;
+  border: none !important;
 }
 
 .quform-element .wpcf7-form-control-wrap input::placeholder,
@@ -149,8 +148,8 @@
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 
 /* Modal Content/Box */
@@ -160,4 +159,30 @@
   padding: 20px;
   border: 1px solid #888;
   width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 767px) {
+  .realfactory-footer-wrapper .realfactory-footer-column {
+    margin-bottom: 30px;
+  }
+
+  .gdlr-core-pbf-column-content-margin {
+    padding: 30px 0px 30px 0px !important;
+  }
+
+  .c-service-mobile-wrap {
+    padding: 10px 0px 10px 0px !important;
+  }
+
+  .c-gallery-wrapper {
+    padding-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 999px) {
+  .submit-button {
+    padding: 10px;
+  }
 }

@@ -69,7 +69,7 @@
                                     <div class="gdlr-core-contact-form-7-item gdlr-core-item-pdlr gdlr-core-item-pdb ">
                                         <div role="form" class="wpcf7" id="wpcf7-f1319-p1964-o1" lang="en-US" dir="ltr">
                                             <div class="screen-reader-response"></div>
-                                            <?php echo do_shortcode('[email-download download_id="36" contact_form_id="39"]'); ?>
+                                            <?php echo do_shortcode('[email-download download_id="79" contact_form_id="39"]'); ?>
                                         </div>
                                     </div>
                                 </div>
