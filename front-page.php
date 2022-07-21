@@ -10,14 +10,14 @@
                             <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-source="gallery" style="margin:0px auto;background:#262626;padding:0px;margin-top:0px;margin-bottom:0px;">
                                 <div id="rev_slider_1_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.5.1">
                                     <ul>
-                                        <li data-index="rs-2" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="upload/slider-2-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description=""> <img src="<?php echo get_template_directory_uri(); ?>/upload/slider-1.jpg" alt="" title="slider-2" width="1800" height="827" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina="">
+                                        <li data-index="rs-2" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="images/slider-2-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description=""> <img src="<?php echo get_template_directory_uri(); ?>/images/slider-1.jpg" alt="" title="slider-2" width="1800" height="827" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina="">
                                             <div class="tp-caption   tp-resizeme" id="slide-2-layer-3" data-x="21" data-y="center" data-voffset="-47" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:50px;opacity:0;","speed":300,"to":"o:1;","delay":620,"ease":"Power2.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textalign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 13; white-space: nowrap; font-size: 110px; font-weight: 700; color: #99c329;font-family:Hind;text-transform:uppercase;">QTS</div>
                                             <div class="tp-caption   tp-resizeme" id="slide-2-layer-4" data-x="27" data-y="center" data-voffset="44" data-width="['666']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","speed":300,"to":"o:1;","delay":880,"ease":"Power2.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textalign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 14; min-width: 666px; max-width: 666px; white-space: normal; font-size: 20px; line-height: 30px; font-weight: 400; color: rgba(255,255,255,1);font-family:Hind;">Soluções de trading e serviços associados</div>
                                             <div class="tp-caption rev-btn " id="slide-2-layer-6" data-x="26" data-y="center" data-voffset="130" data-width="['auto']" data-height="['auto']" data-type="button" data-responsive_offset="on" data-responsive="off" data-frames='[{"from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","speed":300,"to":"o:1;","delay":1120,"ease":"Power2.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(0,0,0,1);bg:rgba(247,204,86,1);"}]' data-textalign="['left','left','left','left']" data-paddingtop="[17,17,17,17]" data-paddingright="[34,34,34,34]" data-paddingbottom="[17,17,17,17]" data-paddingleft="[34,34,34,34]" style="z-index: 15; white-space: nowrap; font-size: 14px; line-height: 17px; font-weight: 600; color: rgba(10,10,10,1);font-family:Hind;background-color:#99c329;border-radius:3px 3px 3px 3px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
                                                 <a href="<?php echo site_url('/about'); ?>">Saber Mais</a>
                                             </div>
                                         </li>
-                                        <li data-index="rs-3" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="upload/slider-3-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description=""> <img src="<?php echo get_template_directory_uri(); ?>/upload/slider-3.jpg" alt="" title="slider-3" width="1800" height="827" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina="">
+                                        <li data-index="rs-3" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="images/slider-3-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description=""> <img src="<?php echo get_template_directory_uri(); ?>/images/slider-3.jpg" alt="" title="slider-3" width="1800" height="827" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina="">
                                             <div class="tp-caption   tp-resizeme" id="slide-3-layer-3" data-x="24" data-y="center" data-voffset="31" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:50px;opacity:0;","speed":300,"to":"o:1;","delay":340,"ease":"Power2.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textalign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 10; white-space: nowrap; font-size: 70px; font-weight: 700; color: #99c329;font-family:Hind;">High Standard Labour</div>
                                             <div class="tp-caption   tp-resizeme" id="slide-3-layer-4" data-x="27" data-y="center" data-voffset="116" data-width="['666']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","speed":300,"to":"o:1;","delay":640,"ease":"Power2.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textalign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; min-width: 666px; max-width: 666px; white-space: normal; font-size: 20px; line-height: 30px; font-weight: 400; color: rgba(255,255,255,1);font-family:Hind;">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Maecenas sed diam eget risus varius blandit sit amet non.</div>
                                         </li>
@@ -32,7 +32,7 @@
         </div>
         <div class="gdlr-core-pbf-wrapper " style="margin: 0px 0px 0px 0px;padding: 0px 0px 60px 0px;">
             <div class="gdlr-core-pbf-background-wrap">
-                <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" style="background-image: url(upload/about-home-bg.jpg);background-repeat: repeat;background-position: center;" data-parallax-speed="0.2"></div>
+                <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" style="background-image: url(images/about-home-bg.jpg);background-repeat: repeat;background-position: center;" data-parallax-speed="0.2"></div>
             </div>
             <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
                 <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
@@ -233,7 +233,7 @@
 
         <div class="gdlr-core-pbf-wrapper " style="padding: 40px 0px;" data-skin="Dark">
             <div class="gdlr-core-pbf-background-wrap">
-                <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" style="background-image: url(<?php echo get_template_directory_uri(); ?>/upload/testimonial-bg.jpg);background-size: cover;background-position: center;" data-parallax-speed="0.2"></div>
+                <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/testimonial-bg.jpg);background-size: cover;background-position: center;" data-parallax-speed="0.2"></div>
             </div>
             <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
                 <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container-custom" style="max-width: 655px;">
@@ -327,32 +327,32 @@
                                 <ul class="slides">
                                     <li class="gdlr-core-item-mglr">
                                         <div class="gdlr-core-gallery-list gdlr-core-media-image">
-                                            <a href="#" target="_self"><img src="<?php echo get_template_directory_uri(); ?>/upload/banner-1.jpg" alt="" width="420" height="240"></a>
+                                            <a href="#" target="_self"><img src="<?php echo get_template_directory_uri(); ?>/images/banner-1.jpg" alt="" width="420" height="240"></a>
                                         </div>
                                     </li>
                                     <li class="gdlr-core-item-mglr">
                                         <div class="gdlr-core-gallery-list gdlr-core-media-image">
-                                            <a href="#" target="_self"><img src="<?php echo get_template_directory_uri(); ?>/upload/banner-2.jpg" alt="" width="420" height="240"></a>
+                                            <a href="#" target="_self"><img src="<?php echo get_template_directory_uri(); ?>/images/banner-2.jpg" alt="" width="420" height="240"></a>
                                         </div>
                                     </li>
                                     <li class="gdlr-core-item-mglr">
                                         <div class="gdlr-core-gallery-list gdlr-core-media-image">
-                                            <a href="#" target="_self"><img src="<?php echo get_template_directory_uri(); ?>/upload/banner-3.jpg" alt="" width="420" height="240"></a>
+                                            <a href="#" target="_self"><img src="<?php echo get_template_directory_uri(); ?>/images/banner-3.jpg" alt="" width="420" height="240"></a>
                                         </div>
                                     </li>
                                     <li class="gdlr-core-item-mglr">
                                         <div class="gdlr-core-gallery-list gdlr-core-media-image">
-                                            <a href="#" target="_self"><img src="<?php echo get_template_directory_uri(); ?>/upload/banner-4.jpg" alt="" width="420" height="240"></a>
+                                            <a href="#" target="_self"><img src="<?php echo get_template_directory_uri(); ?>/images/banner-4.jpg" alt="" width="420" height="240"></a>
                                         </div>
                                     </li>
                                     <li class="gdlr-core-item-mglr">
                                         <div class="gdlr-core-gallery-list gdlr-core-media-image">
-                                            <a href="#" target="_self"><img src="<?php echo get_template_directory_uri(); ?>/upload/banner-5.jpg" alt="" width="420" height="240"></a>
+                                            <a href="#" target="_self"><img src="<?php echo get_template_directory_uri(); ?>/images/banner-5.jpg" alt="" width="420" height="240"></a>
                                         </div>
                                     </li>
                                     <li class="gdlr-core-item-mglr">
                                         <div class="gdlr-core-gallery-list gdlr-core-media-image">
-                                            <a href="#" target="_self"><img src="<?php echo get_template_directory_uri(); ?>/upload/banner-6.jpg" alt="" width="420" height="240"></a>
+                                            <a href="#" target="_self"><img src="<?php echo get_template_directory_uri(); ?>/images/banner-6.jpg" alt="" width="420" height="240"></a>
                                         </div>
                                     </li>
                                 </ul>

@@ -33,7 +33,7 @@
                                 <div class="gdlr-core-pbf-element">
                                     <div class="gdlr-core-column-service-item gdlr-core-item-pdb  gdlr-core-left-align gdlr-core-column-service-icon-left gdlr-core-no-caption gdlr-core-item-pdlr">
                                         <div class="gdlr-core-column-service-media gdlr-core-media-image" style="margin-right: 40px;">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/upload/about-icon-1.png" alt="" width="62" height="62">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/images/about-icon-1.png" alt="" width="62" height="62">
                                         </div>
                                         <div class="gdlr-core-column-service-content-wrapper">
                                             <div class="gdlr-core-column-service-title-wrap">
@@ -48,7 +48,7 @@
                                 <div class="gdlr-core-pbf-element">
                                     <div class="gdlr-core-column-service-item gdlr-core-item-pdb  gdlr-core-left-align gdlr-core-column-service-icon-left gdlr-core-no-caption gdlr-core-item-pdlr">
                                         <div class="gdlr-core-column-service-media gdlr-core-media-image" style="margin-right: 45px;margin-left: 5px;">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/upload/about-icon-2.png" alt="" width="53" height="61">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/images/about-icon-2.png" alt="" width="53" height="61">
                                         </div>
                                         <div class="gdlr-core-column-service-content-wrapper">
                                             <div class="gdlr-core-column-service-title-wrap">
@@ -63,7 +63,7 @@
                                 <div class="gdlr-core-pbf-element">
                                     <div class="gdlr-core-column-service-item gdlr-core-item-pdb  gdlr-core-left-align gdlr-core-column-service-icon-left gdlr-core-no-caption gdlr-core-item-pdlr" style="padding-bottom: 0px;">
                                         <div class="gdlr-core-column-service-media gdlr-core-media-image" style="margin-right: 49px;margin-bottom: 0px;margin-left: 13px;">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/upload/about-icon-3.png" alt="" width="40" height="61">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/images/about-icon-3.png" alt="" width="40" height="61">
                                         </div>
                                         <div class="gdlr-core-column-service-content-wrapper">
                                             <div class="gdlr-core-column-service-title-wrap">
