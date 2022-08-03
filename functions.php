@@ -98,3 +98,6 @@ function search_filter($query) {
 }
 
 add_filter('pre_get_posts', 'search_filter');
+
+// shortcodes
+include('shortcode-about-icon.php');
