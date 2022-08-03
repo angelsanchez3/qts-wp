@@ -12,7 +12,7 @@
 <div class="realfactory-page-wrapper" id="realfactory-page-wrapper">
     <div class="gdlr-core-page-builder-body">
         <div class="gdlr-core-pbf-section">
-            <div class="gdlr-core-pbf-section-container gdlr-core-container clearfix">
+            <!-- <div class="gdlr-core-pbf-section-container gdlr-core-container clearfix">
                 <div class="gdlr-core-pbf-element">
 
                     <div class="gdlr-core-pbf-column gdlr-core-column-30 gdlr-core-column-first">
@@ -38,7 +38,7 @@
                                     <div class="gdlr-core-contact-form-7-item gdlr-core-item-pdlr gdlr-core-item-pdb ">
                                         <div role="form" class="wpcf7" id="wpcf7-f1319-p1964-o1" lang="en-US" dir="ltr">
                                             <div class="screen-reader-response"></div>
-                                            <?php echo do_shortcode('[email-download download_id="36" contact_form_id="32"]'); ?>
+                                            <?php // echo do_shortcode('[email-download download_id="36" contact_form_id="32"]'); ?>
                                         </div>
                                     </div>
                                 </div>
@@ -69,7 +69,7 @@
                                     <div class="gdlr-core-contact-form-7-item gdlr-core-item-pdlr gdlr-core-item-pdb ">
                                         <div role="form" class="wpcf7" id="wpcf7-f1319-p1964-o1" lang="en-US" dir="ltr">
                                             <div class="screen-reader-response"></div>
-                                            <?php echo do_shortcode('[email-download download_id="79" contact_form_id="39"]'); ?>
+                                            <?php // echo do_shortcode('[email-download download_id="79" contact_form_id="39"]'); ?>
                                         </div>
                                     </div>
                                 </div>
@@ -77,7 +77,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="gdlr-core-pbf-section c-gallery-wrapper">
                 <div class="gdlr-core-portfolio-item gdlr-core-item-pdb clearfix  gdlr-core-portfolio-item-style-modern gdlr-core-container" style="padding-bottom: 10px;">
                     <div class="gdlr-core-portfolio-item-holder gdlr-core-js-2 clearfix" data-layout="fitrows">
