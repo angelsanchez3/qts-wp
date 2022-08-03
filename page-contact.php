@@ -65,7 +65,7 @@
                                             <div class="gdlr-core-text-box-item-content" style="font-size: 16px;">
                                                 <p>R. Pomar de Marvila, Lote 15
                                                     <br>Parque Industrial de Sequeira
-                                                    <br>Braga, Portugal
+                                                    <br>4705-629 Braga, Portugal
                                                 </p>
                                             </div>
                                         </div>
@@ -73,7 +73,7 @@
                                     <div class="gdlr-core-pbf-element">
                                         <div class="gdlr-core-icon-list-item gdlr-core-item-pdlr gdlr-core-item-pdb ">
                                             <ul>
-                                                <li class=" gdlr-core-skin-divider gdlr-core-with-hover"><span class="gdlr-core-icon-list-icon-wrap"><i class="gdlr-core-icon-list-icon-hover fa fa-envelope-o" style="font-size: 16px;width: 16px;"></i><i class="gdlr-core-icon-list-icon fa fa-envelope-o" style="font-size: 16px;width: 16px;"></i></span><span class="gdlr-core-icon-list-content" style="font-size: 16px;">geral@qtservices.pt </span></li>
+                                                <li class=" gdlr-core-skin-divider gdlr-core-with-hover"><span class="gdlr-core-icon-list-icon-wrap"><i class="gdlr-core-icon-list-icon-hover fa fa-envelope-o" style="font-size: 16px;width: 16px;"></i><i class="gdlr-core-icon-list-icon fa fa-envelope-o" style="font-size: 16px;width: 16px;"></i></span><span class="gdlr-core-icon-list-content" style="font-size: 16px;">marketing@qtservices.pt </span></li>
                                                 <li class=" gdlr-core-skin-divider gdlr-core-with-hover"><span class="gdlr-core-icon-list-icon-wrap"><i class="gdlr-core-icon-list-icon-hover fa fa-phone" style="font-size: 16px;width: 16px;"></i><i class="gdlr-core-icon-list-icon fa fa-phone" style="font-size: 16px;width: 16px;"></i></span><span class="gdlr-core-icon-list-content" style="font-size: 16px;">+351 911 509 738</span></li>
                                             </ul>
                                         </div>

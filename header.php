@@ -93,7 +93,7 @@
                         <div class="gdlr-core-dropdown-tab gdlr-core-js clearfix">
                             <div class="gdlr-core-dropdown-tab-content-wrap">
                                 <div class="gdlr-core-dropdown-tab-content gdlr-core-active" data-index="0">
-                                    <i class="fa fa-phone" style="font-size: 16px;color: #99c329;margin-right: 10px;"></i> +351 911 509 738 <i class="fa fa-envelope-o" style="font-size: 16px;color: #99c329;margin-left: 24px;margin-right: 10px;"></i> geral@qtservices.pt
+                                    <i class="fa fa-phone" style="font-size: 16px;color: #99c329;margin-right: 10px;"></i> +351 911 509 738 <i class="fa fa-envelope-o" style="font-size: 16px;color: #99c329;margin-left: 24px;margin-right: 10px;"></i> marketing@qtservices.pt
                                 </div>
                             </div>
                         </div>

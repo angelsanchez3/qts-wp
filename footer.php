@@ -61,11 +61,11 @@
                     <h3 class="realfactory-widget-title">Contactos</h3>
                     <div class="textwidget">
                         <p>
-                            <i class="fa fa-location-arrow" style="font-size: 20px;color: #99c329;margin-left: 0px;margin-right: 10px;"></i> R. Pomar de Marvila, Lote 15, Parque Industrial de Sequeira, Braga, Portugal
+                            <i class="fa fa-location-arrow" style="font-size: 20px;color: #99c329;margin-left: 0px;margin-right: 10px;"></i> R. Pomar de Marvila, Lote 15, Parque Industrial de Sequeira, 4705-629 Braga, Portugal
                             <br> <span class="gdlr-core-space-shortcode" style="margin-top: -6px;"></span>
                             <br> <i class="fa fa-phone" style="font-size: 20px;color: #99c329;margin-right: 10px;"></i> +351 911 509 738
                             <br> <span class="gdlr-core-space-shortcode" style="margin-top: -6px;"></span>
-                            <br> <i class="fa fa-envelope-o" style="font-size: 20px;color: #99c329;margin-left: 0px;margin-right: 10px;"></i> geral@qtservices.pt
+                            <br> <i class="fa fa-envelope-o" style="font-size: 20px;color: #99c329;margin-left: 0px;margin-right: 10px;"></i> marketing@qtservices.pt
                         </p>
                     </div>
                 </div>
