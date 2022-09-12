@@ -7,6 +7,7 @@ function qts_setup()
     wp_enqueue_style('rftr-style-custom', get_theme_file_uri('/css/rftr-style-custom.css'));
     wp_enqueue_style('goodlayers-core-style', get_theme_file_uri('/plugins/goodlayers-core/plugins/combine/style.css'));
     wp_enqueue_style('goodlayers-core-css-builder', get_theme_file_uri('/plugins/goodlayers-core/include/css/page-builder.css'));
+    wp_enqueue_style('revslider-css-settings', get_theme_file_uri('/plugins/revslider/public/assets/css/settings.css'));
 
     wp_enqueue_style('custom-style', get_theme_file_uri('/css/custom.css'), NULL, microtime());
 
