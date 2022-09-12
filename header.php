@@ -79,9 +79,9 @@
                     </div>
                     <div class="realfactory-top-bar-right realfactory-item-pdlr c-header-social-wrapper">
                         <div class="realfactory-top-bar-right-social">
-                            <a href="#" target="_blank" class="realfactory-top-bar-social-icon" title="facebook"><i class="fa fa-facebook"></i></a>
-                            <a href="#" target="_blank" class="realfactory-top-bar-social-icon" title="linkedin"><i class="fa fa-linkedin"></i></a>
-                            <a href="#" target="_blank" class="realfactory-top-bar-social-icon" title="youtube"><i class="fa fa-youtube-play"></i></a>
+                            <a href="https://www.facebook.com/qualitytradingservices" target="_blank" class="realfactory-top-bar-social-icon" title="facebook"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/company/qts-quality-trading-services/" target="_blank" class="realfactory-top-bar-social-icon" title="linkedin"><i class="fa fa-linkedin"></i></a>
+                            <!-- <a href="#" target="_blank" class="realfactory-top-bar-social-icon" title="youtube"><i class="fa fa-youtube-play"></i></a> -->
                         </div>
                     </div>
                     <div class="realfactory-top-bar-right realfactory-item-pdlr">

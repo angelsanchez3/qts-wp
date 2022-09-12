@@ -8,9 +8,9 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/images/qts-white-jpg.jpg" alt="" width="110px">
                         <span class="gdlr-core-space-shortcode" style="margin-top: 7px;"></span>
                         <div class="realfactory-top-bar-right-social">
-                            <a href="#" target="_blank" class="facebook-footer" title="facebook"><i class="fa fa-facebook"></i></a>
-                            <a href="#" target="_blank" class="linkedin-footer" title="linkedin"><i class="fa fa-linkedin"></i></a>
-                            <a href="#" target="_blank" class="youtube-footer" title="youtube"><i class="fa fa-youtube-play"></i></a>
+                            <a href="https://www.facebook.com/qualitytradingservices" target="_blank" class="facebook-footer" title="facebook"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/company/qts-quality-trading-services/" target="_blank" class="linkedin-footer" title="linkedin"><i class="fa fa-linkedin"></i></a>
+                            <!-- <a href="#" target="_blank" class="youtube-footer" title="youtube"><i class="fa fa-youtube-play"></i></a> -->
                         </div>
                         <div class="c-newsletter">
                             <div class="c-newsletter-text">Subscreva à nossa newsletter</div>

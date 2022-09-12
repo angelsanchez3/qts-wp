@@ -67,6 +67,11 @@
                                                     <br>Parque Industrial de Sequeira
                                                     <br>4705-629 Braga, Portugal
                                                 </p>
+                                                <p>
+                                                    <span style="font-weight: bold;">GPS</span><br>
+                                                    (DMS) N 41° 32′ 1.627” W 8° 28′ 33.951”<br>
+                                                    (DDD) 41.533825, -8.475790
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
