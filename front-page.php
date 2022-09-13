@@ -87,7 +87,7 @@
                     while ($services->have_posts()) {
                         $services->the_post();
                     ?>
-                        <div class="gdlr-core-pbf-column gdlr-core-column-20 gdlr-core-hide-in-mobile">
+                        <div class="gdlr-core-pbf-column gdlr-core-column-20 gdlr-core-hide-in-mobile c-front-services-image-wrapper">
                             <div class="gdlr-core-pbf-column-content-margin gdlr-core-js " style="margin: -100px 0px 0px 0px;padding: 75px 0px 65px 0px;" data-sync-height="height-service-1">
                                 <div class="gdlr-core-pbf-background-wrap">
                                     <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js c-service-image-overlay" style="background-image: url(<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>);background-size: cover;background-position: center;" data-parallax-speed="0"></div>
@@ -118,7 +118,7 @@
                                     <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" style="padding-bottom: 40px;">
                                         <div class="gdlr-core-title-item-title-wrap ">
                                             <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 29px;font-weight: 600;letter-spacing: 0px;text-transform: none;">
-                                                Áreas de Negócio<span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
+                                                Setores de Atividade<span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
                                             </h3>
                                         </div>
                                     </div>
@@ -126,15 +126,42 @@
                                 <div class="gdlr-core-pbf-element">
                                     <div class="gdlr-core-column-service-item gdlr-core-item-pdb  gdlr-core-left-align gdlr-core-column-service-icon-left gdlr-core-no-caption gdlr-core-item-pdlr" style="padding-bottom: 15px;">
                                         <div class="gdlr-core-column-service-media gdlr-core-media-icon " style="margin-top: 7px;">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/images/icons/electronic.png" alt="" width="35" height="35">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/images/icons/electric.png" alt="" width="35" height="35">
                                         </div>
                                         <div class="gdlr-core-column-service-content-wrapper">
                                             <div class="gdlr-core-column-service-title-wrap">
-                                                <h3 class="gdlr-core-column-service-title" style="font-size: 19px;font-weight: 500;letter-spacing: 0px;text-transform: none;">Eletrónico</h3>
+                                                <h3 class="gdlr-core-column-service-title" style="font-size: 19px;font-weight: 500;letter-spacing: 0px;text-transform: none;">Elétrico / Eletrónico</h3>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+
+                                <div class="gdlr-core-pbf-element">
+                                    <div class="gdlr-core-column-service-item gdlr-core-item-pdb  gdlr-core-left-align gdlr-core-column-service-icon-left gdlr-core-no-caption gdlr-core-item-pdlr" style="padding-bottom: 15px;">
+                                        <div class="gdlr-core-column-service-media gdlr-core-media-icon " style="margin-top: 7px;">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/images/icons/automobile.png" alt="" width="35" height="35">
+                                        </div>
+                                        <div class="gdlr-core-column-service-content-wrapper">
+                                            <div class="gdlr-core-column-service-title-wrap">
+                                                <h3 class="gdlr-core-column-service-title" style="font-size: 19px;font-weight: 500;letter-spacing: 0px;text-transform: none;">Automóvel</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="gdlr-core-pbf-element">
+                                    <div class="gdlr-core-column-service-item gdlr-core-item-pdb  gdlr-core-left-align gdlr-core-column-service-icon-left gdlr-core-no-caption gdlr-core-item-pdlr" style="padding-bottom: 15px;">
+                                        <div class="gdlr-core-column-service-media gdlr-core-media-image" style="margin-top: 7px;">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/images/icons/medical.png" alt="" width="35" height="35">
+                                        </div>
+                                        <div class="gdlr-core-column-service-content-wrapper">
+                                            <div class="gdlr-core-column-service-title-wrap">
+                                                <h3 class="gdlr-core-column-service-title" style="font-size: 19px;font-weight: 500;letter-spacing: 0px;text-transform: none;">Médico</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                                 <div class="gdlr-core-pbf-element">
                                     <div class="gdlr-core-column-service-item gdlr-core-item-pdb  gdlr-core-left-align gdlr-core-column-service-icon-left gdlr-core-no-caption gdlr-core-item-pdlr" style="padding-bottom: 15px;">
                                         <div class="gdlr-core-column-service-media gdlr-core-media-image" style="margin-top: 7px;">
@@ -147,32 +174,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="gdlr-core-pbf-element">
-                                    <div class="gdlr-core-column-service-item gdlr-core-item-pdb  gdlr-core-left-align gdlr-core-column-service-icon-left gdlr-core-no-caption gdlr-core-item-pdlr" style="padding-bottom: 15px;">
-                                        <div class="gdlr-core-column-service-media gdlr-core-media-image" style="margin-top: 7px;">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/images/icons/electric.png" alt="" width="35" height="35">
-                                        </div>
-                                        <div class="gdlr-core-column-service-content-wrapper">
-                                            <div class="gdlr-core-column-service-title-wrap">
-                                                <h3 class="gdlr-core-column-service-title" style="font-size: 19px;font-weight: 500;letter-spacing: 0px;text-transform: none;">Elétrico</h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
 
 
-                                <div class="gdlr-core-pbf-element">
-                                    <div class="gdlr-core-column-service-item gdlr-core-item-pdb  gdlr-core-left-align gdlr-core-column-service-icon-left gdlr-core-no-caption gdlr-core-item-pdlr" style="padding-bottom: 15px;">
-                                        <div class="gdlr-core-column-service-media gdlr-core-media-icon " style="margin-top: 7px;">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/images/icons/auto.png" alt="" width="35" height="35">
-                                        </div>
-                                        <div class="gdlr-core-column-service-content-wrapper">
-                                            <div class="gdlr-core-column-service-title-wrap">
-                                                <h3 class="gdlr-core-column-service-title" style="font-size: 19px;font-weight: 500;letter-spacing: 0px;text-transform: none;">Automóvel</h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                                 <div class="gdlr-core-pbf-element">
                                     <div class="gdlr-core-column-service-item gdlr-core-item-pdb  gdlr-core-left-align gdlr-core-column-service-icon-left gdlr-core-no-caption gdlr-core-item-pdlr" style="padding-bottom: 15px;">
                                         <div class="gdlr-core-column-service-media gdlr-core-media-image" style="margin-top: 7px;">
@@ -180,7 +183,7 @@
                                         </div>
                                         <div class="gdlr-core-column-service-content-wrapper">
                                             <div class="gdlr-core-column-service-title-wrap">
-                                                <h3 class="gdlr-core-column-service-title" style="font-size: 19px;font-weight: 500;letter-spacing: 0px;text-transform: none;">Metalomecânico</h3>
+                                                <h3 class="gdlr-core-column-service-title" style="font-size: 19px;font-weight: 500;letter-spacing: 0px;text-transform: none;">Fixação</h3>
                                             </div>
                                         </div>
                                     </div>
@@ -338,8 +341,8 @@
                                                 <div class="gdlr-core-testimonial-quote gdlr-core-quote-font gdlr-core-skin-icon">&#8220;</div>
                                                 <div class="gdlr-core-testimonial-author-wrap clearfix">
                                                     <div class="gdlr-core-testimonial-author-content">
-                                                        <div class="gdlr-core-testimonial-title gdlr-core-title-font gdlr-core-skin-title" style="color: #ffffff;">JOSÉ XAVIER</div>
-                                                        <div class="gdlr-core-testimonial-position gdlr-core-info-font gdlr-core-skin-caption">XAVIER JANTES, ADMINISTRADOR</div>
+                                                        <div class="gdlr-core-testimonial-title gdlr-core-title-font gdlr-core-skin-title" style="color: #ffffff;">JOSÉ XAVIER, ADMINISTRADOR</div>
+                                                        <div class="gdlr-core-testimonial-position gdlr-core-info-font gdlr-core-skin-caption">XAVIER JANTES</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -357,8 +360,8 @@
                                                 <div class="gdlr-core-testimonial-quote gdlr-core-quote-font gdlr-core-skin-icon">&#8220;</div>
                                                 <div class="gdlr-core-testimonial-author-wrap clearfix">
                                                     <div class="gdlr-core-testimonial-author-content">
-                                                        <div class="gdlr-core-testimonial-title gdlr-core-title-font gdlr-core-skin-title" style="color: #ffffff;">MÁRIO BRAGA</div>
-                                                        <div class="gdlr-core-testimonial-position gdlr-core-info-font gdlr-core-skin-caption">ETMA, CEO</div>
+                                                        <div class="gdlr-core-testimonial-title gdlr-core-title-font gdlr-core-skin-title" style="color: #ffffff;">MÁRIO BRAGA, CEO</div>
+                                                        <div class="gdlr-core-testimonial-position gdlr-core-info-font gdlr-core-skin-caption">ETMA - METAL PARTS</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -368,15 +371,34 @@
                                         <div class="gdlr-core-testimonial clearfix">
                                             <div class="gdlr-core-testimonial-content-wrap">
                                                 <div class="gdlr-core-testimonial-content gdlr-core-info-font gdlr-core-skin-content" style="font-size: 21px;">
-                                                    <p>"A TNT liga a sua empresa QTS - Quality, Trading & Services Lda aos seus clientes,
-                                                        onde quer que estejam. Em todo o mundo e a qualquer hora, cumprir as suas promessas
-                                                        para com os clientes é o que nos mantém em movimento, The People Network."
+                                                    <p>"A Yelco Technologies é uma empresa de inovação de produtos de telecomunicações e tivemos de resolver uma situação muito específica para um dos nossos produtos.
+                                                        A QTS Services foi essencial na finalização desse produto, pela sua prestabilidade, rapidez na resposta e qualidade no produto e no serviço prestado.
+                                                        Contaremos com a QTS para futuras situações.”
                                                     </p>
                                                 </div>
                                                 <div class="gdlr-core-testimonial-quote gdlr-core-quote-font gdlr-core-skin-icon">&#8220;</div>
                                                 <div class="gdlr-core-testimonial-author-wrap clearfix">
                                                     <div class="gdlr-core-testimonial-author-content">
-                                                        <div class="gdlr-core-testimonial-title gdlr-core-title-font gdlr-core-skin-title" style="color: #ffffff;">TNT EXPRESS</div>
+                                                        <div class="gdlr-core-testimonial-title gdlr-core-title-font gdlr-core-skin-title" style="color: #ffffff;">WILLIAM CUNHA, INTERNATIONAL SALES DIRECTOR</div>
+                                                        <div class="gdlr-core-testimonial-position gdlr-core-info-font gdlr-core-skin-caption">YELCO TECHNOLOGIES</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="gdlr-core-item-mglr">
+                                        <div class="gdlr-core-testimonial clearfix">
+                                            <div class="gdlr-core-testimonial-content-wrap">
+                                                <div class="gdlr-core-testimonial-content gdlr-core-info-font gdlr-core-skin-content" style="font-size: 21px;">
+                                                    <p>
+                                                        “Brilham pela qualidade tanto nas respostas como no acompanhamento e nas peças fornecidas.”
+                                                    </p>
+                                                </div>
+                                                <div class="gdlr-core-testimonial-quote gdlr-core-quote-font gdlr-core-skin-icon">&#8220;</div>
+                                                <div class="gdlr-core-testimonial-author-wrap clearfix">
+                                                    <div class="gdlr-core-testimonial-author-content">
+                                                        <div class="gdlr-core-testimonial-title gdlr-core-title-font gdlr-core-skin-title" style="color: #ffffff;">VICTOR ANTUNES</div>
+                                                        <div class="gdlr-core-testimonial-position gdlr-core-info-font gdlr-core-skin-caption">TORTEC - TORNEARIA E PEÇAS TÉCNICAS</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -394,36 +416,21 @@
                 <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
                     <div class="gdlr-core-pbf-element">
                         <div class="gdlr-core-gallery-item gdlr-core-item-pdb clearfix  gdlr-core-gallery-item-style-grid gdlr-core-item-pdlr ">
-                            <div class="gdlr-core-flexslider flexslider gdlr-core-js-2 " data-type="carousel" data-column="5" data-nav="none" data-nav-parent="gdlr-core-blog-item">
+                            <div class="gdlr-core-flexslider flexslider gdlr-core-js-2 " data-type="carousel" data-column="3" data-nav="none" data-nav-parent="gdlr-core-blog-item">
                                 <ul class="slides">
                                     <li class="gdlr-core-item-mglr">
                                         <div class="gdlr-core-gallery-list gdlr-core-media-image">
-                                            <a href="#" target="_self"><img src="<?php echo get_template_directory_uri(); ?>/images/banner-1.jpg" alt="" width="420" height="240"></a>
+                                            <a href="https://etmametalparts.com" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/partners/logo_etma.png" alt="" width="210" height="120"></a>
                                         </div>
                                     </li>
                                     <li class="gdlr-core-item-mglr">
                                         <div class="gdlr-core-gallery-list gdlr-core-media-image">
-                                            <a href="#" target="_self"><img src="<?php echo get_template_directory_uri(); ?>/images/banner-2.jpg" alt="" width="420" height="240"></a>
+                                            <a href="http://www.tortec.pt/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/partners/TORTEC.png" alt="" width="210" height="120"></a>
                                         </div>
                                     </li>
                                     <li class="gdlr-core-item-mglr">
                                         <div class="gdlr-core-gallery-list gdlr-core-media-image">
-                                            <a href="#" target="_self"><img src="<?php echo get_template_directory_uri(); ?>/images/banner-3.jpg" alt="" width="420" height="240"></a>
-                                        </div>
-                                    </li>
-                                    <li class="gdlr-core-item-mglr">
-                                        <div class="gdlr-core-gallery-list gdlr-core-media-image">
-                                            <a href="#" target="_self"><img src="<?php echo get_template_directory_uri(); ?>/images/banner-4.jpg" alt="" width="420" height="240"></a>
-                                        </div>
-                                    </li>
-                                    <li class="gdlr-core-item-mglr">
-                                        <div class="gdlr-core-gallery-list gdlr-core-media-image">
-                                            <a href="#" target="_self"><img src="<?php echo get_template_directory_uri(); ?>/images/banner-5.jpg" alt="" width="420" height="240"></a>
-                                        </div>
-                                    </li>
-                                    <li class="gdlr-core-item-mglr">
-                                        <div class="gdlr-core-gallery-list gdlr-core-media-image">
-                                            <a href="#" target="_self"><img src="<?php echo get_template_directory_uri(); ?>/images/banner-6.jpg" alt="" width="420" height="240"></a>
+                                            <a href="http://www.xavierjantes.com" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/partners/XavierJantes.png" alt="" width="210" height="120"></a>
                                         </div>
                                     </li>
                                 </ul>

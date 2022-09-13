@@ -51,6 +51,10 @@
   font-size: 13px;
 }
 
+.c-front-services-image-wrapper .gdlr-core-pbf-background-wrap {
+  padding: 0 3px;
+}
+
 #trp-floater-ls {
   display: none;
 }
