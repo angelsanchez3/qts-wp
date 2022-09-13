@@ -5,7 +5,7 @@
                 <div id="text-3" class="widget widget_text realfactory-widget">
                     <div class="textwidget c-footer-logo">
                         <span class="gdlr-core-space-shortcode" style="margin-top: -2px;"></span>
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/qts-white-jpg.jpg" alt="" width="110px">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/qts-white-jpg.png" alt="qts-logo-white" width="110px">
                         <span class="gdlr-core-space-shortcode" style="margin-top: 7px;"></span>
                         <div class="realfactory-top-bar-right-social">
                             <a href="https://www.facebook.com/qualitytradingservices" target="_blank" class="facebook-footer" title="facebook"><i class="fa fa-facebook"></i></a>
