@@ -14,10 +14,11 @@
                         </div>
                         <div class="c-newsletter">
                             <div class="c-newsletter-text">Subscreva à nossa newsletter</div>
-                            <form>
+                            <?php echo do_shortcode('[contact-form-7 id="76" title="Newsletter"]'); ?>
+                            <!-- <form>
                                 <input type="text" name="your-company" value="" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Email">
                                 <button type="submit" class="submit-button"><span><em>Subscrever</em></span></button>
-                            </form>
+                            </form> -->
                         </div>
                     </div>
                 </div>

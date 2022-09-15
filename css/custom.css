@@ -55,6 +55,14 @@
   padding: 0 3px;
 }
 
+.submit-button {
+	width: 100%!important;
+}
+
+#news-input {
+  padding: 0;
+}
+
 #trp-floater-ls {
   display: none;
 }
@@ -92,9 +100,9 @@
   padding-top: 15px;
 }
 
-.wpcf7-response-output {
+/* .wpcf7-response-output {
   display: none !important;
-}
+} */
 
 .ebd_link {
   font-size: 23px;
