@@ -150,5 +150,5 @@ tpj(document).ready(function() {
     setTimeout(
         function() {
             modal.style.display = "none";
-        }, 500);
+        }, 100);
 }
