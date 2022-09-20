@@ -372,7 +372,7 @@
                                             <div class="gdlr-core-testimonial-content-wrap">
                                                 <div class="gdlr-core-testimonial-content gdlr-core-info-font gdlr-core-skin-content" style="font-size: 21px;">
                                                     <p>"A Yelco Technologies é uma empresa de inovação de produtos de telecomunicações e tivemos de resolver uma situação muito específica para um dos nossos produtos.
-                                                        A QTS Services foi essencial na finalização desse produto, pela sua prestabilidade, rapidez na resposta e qualidade no produto e no serviço prestado.
+                                                        A QTS foi essencial na finalização desse produto, pela sua prestabilidade, rapidez na resposta e qualidade no produto e no serviço prestado.
                                                         Contaremos com a QTS para futuras situações.”
                                                     </p>
                                                 </div>

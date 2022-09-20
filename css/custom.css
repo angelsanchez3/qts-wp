@@ -204,3 +204,24 @@
 .gdlr-core-icon-list-content {
   margin-left: 5px;
 }
+
+#about-image {
+  background-repeat: no-repeat!important;
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 768px) {
+  #about-image {
+    background-size: auto!important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #about-image {
+    background-position: right!important;
+    background-repeat: no-repeat;
+  }
+
+  #about-image-wrap {
+    padding-top: 300px!important;
+  }
+}

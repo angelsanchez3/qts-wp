@@ -18,9 +18,9 @@
                         the_post();
                     ?>
                         <div class="gdlr-core-pbf-column gdlr-core-column-30 gdlr-core-column-first">
-                            <div class="gdlr-core-pbf-column-content-margin gdlr-core-js  gdlr-core-column-extend-left" style="padding: 100px 100px 0px 0px;" data-sync-height="height-1">
+                            <div id="about-image-wrap" class="gdlr-core-pbf-column-content-margin gdlr-core-js  gdlr-core-column-extend-left" style="padding: 100px 100px 0px 0px;" data-sync-height="height-1">
                                 <div class="gdlr-core-pbf-background-wrap" style="background-color: #f1f0f0 ;">
-                                    <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" style="background-image: url(<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>);background-size: cover;background-position: center;" data-parallax-speed="0.2"></div>
+                                    <div id="about-image" class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" style="background-image: url(<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>);background-size: cover;background-position: center;" data-parallax-speed="0.2"></div>
                                 </div>
                                 <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content" data-gdlr-animation="fadeInLeft" data-gdlr-animation-duration="600ms" data-gdlr-animation-offset="0.8"></div>
                             </div>
@@ -46,11 +46,13 @@
                                                 A QTS é uma empresa especializada na procura dos melhores parceiros para os projetos dos seus clientes. Oferece também serviços de montagem, à medida do cliente, e de serviços de logística ajustados à sua especificidade.
 
                                                 Munida de profissionais de excelência, a QTS está sediada a norte de Portugal, em Braga.
-
-                                                <span style="font-weight: bold;">MISSÃO</span>
+                                                <br>
+                                                <br>
+                                                <span style="font-weight: bold;">MISSÃO</span><br>
                                                 Encontrar soluções para os projetos dos seus clientes, tendo como base a qualidade e a satisfação e o acompanhamento das necessidades e expetativas do mercado da indústria metálica e plástica.
-
-                                                <span style="font-weight: bold;">VALORES</span>
+                                                <br>
+                                                <br>
+                                                <span style="font-weight: bold;">VALORES</span><br>
 
                                             </div>
                                         </div>
@@ -102,8 +104,8 @@
                                             <div class="gdlr-core-text-box-item-content" style="font-size: 18px;">
 
                                                 A QTS, como um todo, propõe-se a ajudar os seus clientes a encontrar a melhor solução para o seu negócio e, dessa forma, adicionar valor, uma vez que vê cada projeto como um desafio a superar.
-
-                                                <span style="font-weight: bold;">COMPROMISSO</span>
+                                                <br><br>
+                                                <span style="font-weight: bold;">COMPROMISSO</span><br>
                                                 <ul>
                                                     <li>Ajudar os clientes a encontrar o melhor parceiro dentro da indústria de componentes metálicos e plásticos.</li>
                                                     <li>Acompanhar o projeto, prestando aconselhamento técnico e, se necessário, seguindo toda a produção, com garantia da qualidade por meio de controlo interno, e cumprindo os prazos de entrega das peças.</li>

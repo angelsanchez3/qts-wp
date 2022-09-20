@@ -19,7 +19,7 @@
                 <div class="gdlr-core-pbf-sidebar-content  gdlr-core-column-45 gdlr-core-pbf-sidebar-padding gdlr-core-line-height gdlr-core-column-extend-right c-service-page" style="padding: 25px 0px 40px 0px;">
                     <div class="gdlr-core-pbf-sidebar-content-inner">
                         <?php the_content(); ?>
-                            <div class="gdlr-core-pbf-column gdlr-core-column-24">
+                            <!-- <div class="gdlr-core-pbf-column gdlr-core-column-24">
                                 <div class="gdlr-core-pbf-column-content-margin gdlr-core-js " style="padding: 0px 0px 20px 0px;">
                                     <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
                                         <?php
@@ -43,7 +43,7 @@
                                         ?>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         <?php } ?>
                     </div>
                 </div>
