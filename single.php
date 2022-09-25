@@ -3,7 +3,7 @@
 while (have_posts()) {
     the_post(); ?>
 
-    <div class="realfactory-style-medium realfactory-center-align">
+    <div class="realfactory-style-medium realfactory-center-align realfactory-page-title-wrap">
         <div class="realfactory-header-transparent-substitute"></div>
         <div class="realfactory-page-title-overlay"></div>
         <div class="realfactory-page-title-container realfactory-container">
