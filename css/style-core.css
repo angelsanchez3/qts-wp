@@ -526,7 +526,7 @@ body.admin-bar .realfactory-fixed-navigation.realfactory-style-slide{ margin-top
 .realfactory-animate-fixed-navigation.realfactory-header-style-boxed.realfactory-style-splitted-menu .realfactory-navigation .sf-menu > li > a{ padding-top: 0px; }
 
 /* page title */
-.realfactory-page-title-wrap{ background-image: url('../images/page-title-background.jpg'); 
+.realfactory-page-title-wrap{ background-image: url(''); 
 	background-position: center; background-size: cover; position: relative; }
 .realfactory-page-title-wrap .realfactory-page-title-overlay{ position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; }
 .realfactory-page-title-wrap .realfactory-page-title-container{ position: relative; }
@@ -685,7 +685,7 @@ body.blog .realfactory-single-article{ padding-bottom: 60px; }
 .realfactory-comments-area .form-submit{ padding-top: 18px; }
 
 /* blog title */
-.realfactory-blog-title-wrap{ background-image: url('../images/page-title-background.jpg'); background-position: center; position: relative; background-size: cover; }
+.realfactory-blog-title-wrap{ background-image: url(''); background-position: center; position: relative; background-size: cover; }
 .realfactory-blog-title-wrap .realfactory-blog-title-container{ position: relative; }
 .realfactory-blog-title-wrap .realfactory-blog-title-overlay{ position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; }
 .realfactory-blog-title-wrap.realfactory-feature-image .realfactory-blog-title-overlay{ opacity: 1; background: url("../images/blog-title-gradient.png") center bottom repeat-x; }

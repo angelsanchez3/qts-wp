@@ -107,13 +107,13 @@
                     <div class="realfactory-navigation realfactory-item-pdlr clearfix ">
                         <div class="realfactory-main-menu" id="realfactory-main-menu">
                             <ul id="menu-main-navigation-1" class="sf-menu">
-                                <li class="menu-item menu-item-home current-menu-item menu-item-has-children realfactory-normal-menu">
+                                <li id="h-nav" class="menu-item menu-item-has-children realfactory-normal-menu">
                                     <a href="<?php echo site_url(''); ?>" class="sf-with-ul-pre">Home</a>
                                 </li>
-                                <li class="menu-item menu-item-has-children realfactory-normal-menu">
+                                <li id="about-nav" class="menu-item menu-item-has-children realfactory-normal-menu">
                                     <a href="<?php echo site_url('/about'); ?>" class="sf-with-ul-pre">Sobre Nós</a>
                                 </li>
-                                <li class="menu-item menu-item-has-children realfactory-normal-menu">
+                                <li id="services-nav" class="menu-item menu-item-has-children realfactory-normal-menu">
                                     <a href="#" class="sf-with-ul-pre">Serviços</a>
                                     <ul class="sub-menu">
                                         <?php
@@ -131,13 +131,13 @@
                                         <?php } ?>
                                     </ul>
                                 </li>
-                                <li class="menu-item menu-item-has-children realfactory-mega-menu">
+                                <li id="info-nav" class="menu-item menu-item-has-children realfactory-normal-menu">
                                     <a href="<?php echo site_url('/information'); ?>" class="sf-with-ul-pre">Informações</a>
                                 </li>
-                                <li class="menu-item menu-item-has-children realfactory-normal-menu">
+                                <li id="news-nav" class="menu-item menu-item-has-children realfactory-normal-menu">
                                     <a href="<?php echo site_url('/news'); ?>" class="sf-with-ul-pre">Notícias</a>
                                 </li>
-                                <li class="menu-item menu-item-has-children realfactory-mega-menu">
+                                <li id="cont-nav" class="menu-item menu-item-has-children realfactory-normal-menu current-menu-item">
                                     <a href="<?php echo site_url('/contact'); ?>" class="sf-with-ul-pre">Contactos</a>
                                 </li>
                             </ul>

@@ -11,6 +11,8 @@ function qts_setup()
 
     wp_enqueue_style('custom-style', get_theme_file_uri('/css/custom.css'), NULL, microtime());
 
+    wp_enqueue_script('custom-script', get_theme_file_uri('/js/custom.js'), NULL, false, true);
+
     wp_enqueue_script('jquery', get_theme_file_uri('/js/jquery/jquery.js'), NULL, microtime(), true);
     wp_enqueue_script('jquery-migrate-min', get_theme_file_uri('/js/jquery/jquery-migrate.min.js'), NULL, microtime(), true);
     wp_enqueue_script('jquery-themepunch', get_theme_file_uri('/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js'), NULL, microtime(), true);
