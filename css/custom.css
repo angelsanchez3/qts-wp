@@ -225,3 +225,19 @@
     padding-top: 300px !important;
   }
 }
+
+/*  news */
+.c-news-title {
+  padding-top: 20px;
+}
+.c-news-title h1 {
+  color:#727272;
+}
+
+.c-news-post {
+  width: 85%;
+}
+
+.c-news-post-wrap {
+  text-align: center;
+}
