@@ -13,7 +13,7 @@
                             <!-- <a href="#" target="_blank" class="youtube-footer" title="youtube"><i class="fa fa-youtube-play"></i></a> -->
                         </div>
                         <div class="c-newsletter">
-                            <div class="c-newsletter-text">Subscreva à nossa newsletter</div>
+                            <div class="c-newsletter-text">Subscreva a nossa newsletter</div>
                             <?php echo do_shortcode('[contact-form-7 id="76" title="Newsletter"]'); ?>
                             <!-- <form>
                                 <input type="text" name="your-company" value="" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Email">

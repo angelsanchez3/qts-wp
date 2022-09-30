@@ -82,7 +82,7 @@
                 <div class="gdlr-core-portfolio-item gdlr-core-item-pdb clearfix  gdlr-core-portfolio-item-style-modern gdlr-core-container" style="padding-bottom: 10px;">
                     <div class="gdlr-core-portfolio-item-holder gdlr-core-js-2 clearfix" data-layout="fitrows">
                         <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 36px;letter-spacing: 0px;text-transform: none; padding-left: 15px;">
-                            Galeria<span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
+                            O mundo da QTS através de imagens<span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
                         </h3>
                         <?php while (have_posts()) {
                             the_post();
