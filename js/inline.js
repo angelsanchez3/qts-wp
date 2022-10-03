@@ -116,8 +116,9 @@ tpj(document).ready(function () {
           arrows: {
             style: "uranus",
             enable: true,
-            hide_onmobile: false,
-            hide_onleave: false,
+            // hide_onmobile: false,
+            hide_under: 767,
+            hide_onleave: true,
             tmp: "",
             left: {
               h_align: "left",
@@ -132,6 +133,17 @@ tpj(document).ready(function () {
               v_offset: 0,
             },
           },
+          bullets: {
+            enable: true,
+            style: "hermes",
+            hide_onleave: false,
+            hide_over: 767,
+            h_align: "center",
+            v_align: "bottom",
+            h_offset: 0,
+            v_offset: 20,
+            space: 5
+          }
         },
         visibilityLevels: [1240, 1024, 778, 480],
         gridwidth: 1180,
