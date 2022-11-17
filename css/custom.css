@@ -67,6 +67,10 @@
   display: none;
 }
 
+.realfactory-page-title-wrap .realfactory-page-title {
+  text-transform: uppercase;
+}
+
 @media only screen and (max-width: 999px) {
   #trp-floater-ls {
     display: block;
