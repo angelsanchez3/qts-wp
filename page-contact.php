@@ -79,7 +79,7 @@
                                         <div class="gdlr-core-icon-list-item gdlr-core-item-pdlr gdlr-core-item-pdb ">
                                             <ul>
                                                 <li class=" gdlr-core-skin-divider gdlr-core-with-hover"><span class="gdlr-core-icon-list-icon-wrap"><i class="gdlr-core-icon-list-icon-hover fa fa-envelope-o" style="font-size: 16px;width: 16px;"></i><i class="gdlr-core-icon-list-icon fa fa-envelope-o" style="font-size: 16px;width: 16px;"></i></span><span class="gdlr-core-icon-list-content" style="font-size: 16px;">marketing@qtservices.pt </span></li>
-                                                <li class=" gdlr-core-skin-divider gdlr-core-with-hover"><span class="gdlr-core-icon-list-icon-wrap"><i class="gdlr-core-icon-list-icon-hover fa fa-phone" style="font-size: 16px;width: 16px;"></i><i class="gdlr-core-icon-list-icon fa fa-phone" style="font-size: 16px;width: 16px;"></i></span><span class="gdlr-core-icon-list-content" style="font-size: 16px;">+351 911 509 738</span></li>
+                                                <li class=" gdlr-core-skin-divider gdlr-core-with-hover"><span class="gdlr-core-icon-list-icon-wrap"><i class="gdlr-core-icon-list-icon-hover fa fa-phone" style="font-size: 16px;width: 16px;"></i><i class="gdlr-core-icon-list-icon fa fa-phone" style="font-size: 16px;width: 16px;"></i></span><span class="gdlr-core-icon-list-content" style="font-size: 16px;">+351 911 509 738 </span><br><span class="qts-phone-disclaimer">Chamada para a rede móvel nacional</span></li>
                                             </ul>
                                         </div>
                                     </div>
